@@ -45,7 +45,7 @@ function Skills() {
         <div>
 
         <div className="w-full mt-5 flex shadow-lg shadow-cyan-200 mb-2 justify-center">
-            <h1 className="py-4 mt-6 text-2xl text-black font-bold">Skills & Proyects</h1>
+            <h1 className="py-4  mt-32 md:mt-6 text-2xl text-black font-bold">Skills & Proyects</h1>
             </div>
                 <section className="p-4 flex gap-4 w-full snap-x overflow-x-auto">
                 {skills.map(e => {

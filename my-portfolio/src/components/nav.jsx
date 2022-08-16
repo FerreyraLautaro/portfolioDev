@@ -20,7 +20,7 @@ function Nav() {
                     <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                     </button>
                 </div>
-                <div id='menu' className="w-full flex-grow  duration-150 hidden lg:flex lg:items-center lg:w-auto text-center">
+                <div id='menu' className="w-full flex-grow duration-150 hidden  lg:flex lg:items-center lg:w-auto text-center">
                     <div className="text-sm lg:flex-grow">
                     <a href="#responsive-header" className="  mt-4 lg:inline-block md:text-lg lg:mt-0 text-cyan-100 hover:text-white  mr-4">Habilidades
                     </a>
@@ -34,16 +34,18 @@ function Nav() {
                     </div>
                 </div>
             </nav>
-            <div className="flex rounded-xl justify-center mt-32 items-center container w-3/4 mx-auto bg-cyan-400 md:h-3/6 md:mt-40 lg:h-3/6 lg:mt-40">
-                <div className="grid gap-8  justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-                    <div key="cosa" className="pt-5 px-5 flex flex-col bg-cyan-400 ">
+            <div className="flex rounded-xl justify-center mt-32 items-center container w-3/4 mx-auto bg-cyan-400  lg:h-3/6 lg:mt-40">
+                <div className="grid gap-8 pt-5  justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:p-0">
+                    <div key="cosa" className="px-5 flex flex-col bg-cyan-400 ">
                         <div className="overflow-auto rounded-xl">
                         <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt=""/>
                         </div>
                     </div>
                     <div className="p-4">
                         <h5 className="text-2xl text-white md:text-3xl font-bold md:mt-3 ">HELLO WORLD</h5>
-                        <p className="md:mt-3 text-white ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, accusantium!Lorem Lorem ipsumolor sit amet, consectetur adipisicing elit. Molestias sunt labore commodi iusto assumenda, volupta dolor sit amet, consectetur adipisicing elit. Molestias sunt labore commodi iusto assumenda, voluptatum illum saepe ullam laboriosam repellendus. Dolor nostrum sapiente quaerat soluta, dolore dolorem. Veritatis, quam architecto?</p>
+                        <p className="md:mt-3 text-white font-semibold md:text-xl">My nombre es Lautaro Ferreyra</p>
+                        <p className="md:mt-3 text-white "> Un un programador FullStack en continuo crecimiento y apasionado por el aprendizaje que da el enfrentar nuevos desafios</p>
+                        <p className="md:mt-3 text-white "> Debo gran parte de mis conocimientos y aptitudes al <a className="hover:text-yellow-300 font-semibold" href="https://www.soyhenry.com/">Bootcamp Soy Henry</a>, aqui realize mis proeyctos hasta la fecha...</p>
                     </div>
 
                 </div>
