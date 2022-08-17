@@ -22,7 +22,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault()
         console.log(dataMail)
-        emailjs.sendForm('service_781a2dy','template_4ar79ss',e.target,'U4Awhp-0chr1BeVM' )
+        emailjs.sendForm('service_781a2dy','template_4ar79ss',e.target,'U4Awhp-0chr1BeVMF' )
         .then(response => swal("Mensaje enviado😁", "Pronto estaremos en contacto!!", "success"))
         .catch(error => swal("Ocurrio un problema😢", "Puedes contactarme a ferreyralautaro69@gmail.com", "error"))
         setDataMail({
