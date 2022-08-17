@@ -1,11 +1,11 @@
-import git from '../images/git.png'
+import github from '../images/github.png'
 import wsp from '../images/wsp.png'
 import linkedin from '../images/linkedIn.png'
 
 function Contact() {
     return (
         <div className="flex justify-center h-3/4 mb-32" >
-            <form class="flex w-full max-w-sm space-x-3">
+            <form id='contacto' class="flex w-full max-w-sm space-x-3">
                 <div class="w-full px-5 py-10 m-auto mt-32 rounded-lg shadow-xl shadow-cyan-500">
                     <div class="mb-6 text-3xl font-normal text-center text-gray-800">
                 Contáctame!!
@@ -37,9 +37,9 @@ function Contact() {
         </form>
 
         <div className="flex flex-col px-5 py-10 ml-10 mt-32 rounded-lg shadow-xl shadow-cyan-500 ">
-            <div className="h-1/3 w-full flex items-center "> <a href=""><img className='hover:-translate-y-1 transition-all duration-150' src={git} alt="GitHub" /></a></div>
-            <div className="h-1/3 w-full flex items-center"><a href=""><img className='hover:-translate-y-1 transition-all duration-150' src={linkedin} alt="LinkedIn" /></a></div>
-            <div className="h-1/3 w-full flex items-center"><a href=""><img className='hover:-translate-y-1 transition-all duration-150' src={wsp} alt="WhatsApp" /></a></div>
+            <div className="h-1/3 w-full flex items-center "> <a target="_blank" href="https://github.com/FerreyraLautaro"><img className='hover:-translate-y-1 transition-all duration-150' src={github} alt="GitHub" /></a></div>
+            <div className="h-1/3 w-full flex items-center"><a target="_blank" href="https://www.linkedin.com/in/lautarof-developer/"><img className='hover:-translate-y-1 transition-all duration-150' src={linkedin} alt="LinkedIn" /></a></div>
+            <div className="h-1/3 w-full flex items-center"><a target="_blank" href="https://api.whatsapp.com/send?phone=3513348627"><img className='hover:-translate-y-1 transition-all duration-150' src={wsp} alt="WhatsApp" /></a></div>
         </div>
         </div>
     );
