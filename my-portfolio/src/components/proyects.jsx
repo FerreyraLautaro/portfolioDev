@@ -4,7 +4,7 @@ const proyectos = [{
     name: "Recipe Book",
     img: food,
     alt: "proyecto individual",
-    descripcion: "Este pryecto consistio en el consumo de Api Sopooncular para realizar una apgina web con recetas gastronómicas. Es Posible filtrar todas las recetas, generar nuevas y ver el detalle de las mismas. En la parte visual utilice React, Redux, Javascript, Css y SweetAlert. Mientras que para el back implemente NodeJs, PostgresSQL y Sequelize",
+    descripcion: "Este pryecto consistio en el consumo de Api Sopooncular para realizar una pagina web con recetas gastronómicas. Es posible filtrar todas las recetas, generar nuevas y ver el detalle de las mismas. En la parte visual utilice React, Redux, Javascript, Css y SweetAlert. Mientras que para el back implemente NodeJs, PostgresSQL y Sequelize",
     href: "https://pi-food-sigma.vercel.app/",
     repo: "https://github.com/FerreyraLautaro/Pi-FOOD"
 },
