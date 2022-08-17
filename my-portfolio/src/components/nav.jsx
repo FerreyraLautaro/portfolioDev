@@ -4,7 +4,8 @@ function Nav() {
     function hiddenMenu (e) {
         e.preventDefault()
         const menu = document.querySelector('#menu');
-        console.log(menu.classList.toggle('hidden'))
+        menu.classList.toggle('hidden')
+
     }
     
 
@@ -22,11 +23,11 @@ function Nav() {
                 </div>
                 <div id='menu' className="w-full flex-grow duration-150 hidden  lg:flex lg:items-center lg:w-auto text-center">
                     <div className="text-sm lg:flex-grow">
-                    <a href="#responsive-header" className="  mt-4 lg:inline-block md:text-lg lg:mt-0 text-cyan-100 hover:text-white  mr-4">Habilidades
+                    <a href="#responsive-header" className=" block mt-4  md:text-lg lg:inline-block lg:mt-0 text-cyan-100 hover:text-white  mr-4">Habilidades
                     </a>
                     <a href="#responsive-header" className="block  mt-4 md:text-lg  lg:inline-block lg:mt-0 text-cyan-100 hover:text-white mr-4">Proyectos
                     </a>
-                    <a href="#responsive-header" className="block  mt-4 md:text-lg lg:inline-block lg:mt-0 text-cyan-100 hover:text-white">Contáctame
+                    <a href="#responsive-header" className="block  mt-4 md:text-lg lg:inline-block lg:mt-0 text-cyan-100 hover:text-white mr-4">Contáctame
                     </a>
                     </div>
                     <div>

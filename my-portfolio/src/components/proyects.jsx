@@ -16,7 +16,7 @@ const proyectos = [{
 function Proyects() {
     return (
 <div className="container flex justify-center mx-auto w-4/5">
- <div className="grid gap-8 mt-5 justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+ <div className="grid gap-8 mt-20 justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
    
    {proyectos.map(e => {
     return (<div key={e.name} className="p-5 flex flex-col shadow-cyan-300 shadow-2xl">
