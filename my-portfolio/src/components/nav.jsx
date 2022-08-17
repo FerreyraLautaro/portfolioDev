@@ -47,7 +47,7 @@ function Nav() {
                     </div>
                     <div className="p-4">
                         <h5 className="text-2xl text-white md:text-3xl font-bold md:mt-3 ">HELLO WORLD</h5>
-                        <p className="md:mt-3 text-white font-semibold md:text-xl">My nombre es Lautaro Ferreyra</p>
+                        <p className="md:mt-3 text-white font-semibold md:text-xl">Soy es Lautaro Ferreyra</p>
                         <p className="md:mt-3 text-white "> Un un programador FullStack en continuo crecimiento y apasionado por el aprendizaje que da el enfrentar nuevos desafios</p>
                         <p className="md:mt-3 text-white "> Debo gran parte de mis conocimientos y aptitudes al <a className="hover:text-yellow-300 font-semibold" href="https://www.soyhenry.com/">Bootcamp Soy Henry</a>, aqui realize mis proeyctos hasta la fecha...</p>
                     </div>
