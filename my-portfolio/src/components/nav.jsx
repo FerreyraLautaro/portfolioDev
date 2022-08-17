@@ -1,3 +1,6 @@
+import perfil from '../images/fotoHello.jpg'
+import cv from './CV.pdf'
+
 function Nav() {
 
 
@@ -31,7 +34,7 @@ function Nav() {
                     </a>
                     </div>
                     <div>
-                    <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white md:text-lg hover:border-transparent hover:text-cyan-500 hover:bg-white mt-4 lg:mt-0 ">Descargar CV</a>
+                    <a download="CV-Developer" href={cv} className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white md:text-lg hover:border-transparent hover:text-cyan-500 hover:bg-white mt-4 lg:mt-0 ">Descargar CV</a>
                     </div>
                 </div>
             </nav>
@@ -39,7 +42,7 @@ function Nav() {
                 <div className="grid gap-8 pt-5  justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:p-0">
                     <div key="cosa" className="px-5 flex flex-col bg-cyan-400 ">
                         <div className="overflow-auto rounded-xl">
-                        <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt=""/>
+                        <img src={perfil} alt="portada"/>
                         </div>
                     </div>
                     <div className="p-4">
