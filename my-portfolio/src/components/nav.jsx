@@ -1,5 +1,5 @@
 import perfil from '../images/fotoHello.jpg'
-import cv from './CV.pdf'
+import cv from './CVactual.pdf'
 
 function Nav() {
 
